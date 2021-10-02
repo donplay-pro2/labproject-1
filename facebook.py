@@ -1,6 +1,6 @@
 class graph: #Graph Class
     n = int(input("Enter the total number of people: ")) # Total number of people
-    adjecencylist = [[] for i in range(0,n)]  #initial Adjency list
+    adjecencylist = [[] for i in range(1,n+1)]  #initial Adjency list
     def creategraph(self):  #Creation of Graph Time complexity O(m) where m = no. of edge
         m = int(input("Enter the number of friend pair: "))
         print("Enter the friend pairs: ")
