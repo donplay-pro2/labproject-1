@@ -1,11 +1,11 @@
 arr = [int(i) for i in input("Enter the list: ").split()] #taking the inputs
 max = 0   
 min = 0
-for i in arr:  # findind maimum and the minimum values
-    if i>max:
-        max = i
-    elif i<min:
-        min = i
+for _ in arr:  # findind maimum and the minimum values
+    if _>max:
+        max = _
+    elif _<min:
+        min = _
 control = []
 for i in range(0,(max-min)+1): # allocating a array 'control' of size (max-min)+1  and all the elements are zero
     control.append(0)
