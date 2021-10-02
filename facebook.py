@@ -5,7 +5,7 @@ class graph: #Graph Class
         m = int(input("Enter the number of friend pair: "))
         print("Enter the friend pairs: ")
         for i in range(0,m):
-            k,l=[int(i) for i in input().split()]
+            k,l=[int(_) for _ in input().split()]
             self.addgraph(k, l)
     def addgraph(self,x,y): # Adding elemnts in adjency list
         self.adjecencylist[x-1].append(y-1)
