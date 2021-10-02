@@ -7,8 +7,8 @@ class minheap:  #creating minheap class
             for i in input("Enter the enements for priority queue:").split():
                 self.add(int(i))
         else:
-            for i in arr:
-                self.add(int(i))
+            for _ in arr:
+                self.add(int(_))
     def swap(self,x,y):   # A swap function
         c=self.pq[x]
         self.pq[x]=self.pq[y]
