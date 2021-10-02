@@ -1,6 +1,6 @@
 def printParenthesis(m, j, i ):
     if j == i:
-        print(chr(65 + j), end = "") #when at diagonals just print the matrix name
+        print(str(65) + str(j), end = "") #when at diagonals just print the matrix name
         return;
     else:
         print("(", end = "") #opening parenthesis
